@@ -1,0 +1,297 @@
+body {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {}
+
+header svg {
+    fill: #757575;
+}
+
+header a {
+    color: #757575;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+header a:hover {
+    color: #2196F3;
+}
+
+header a:hover svg {
+    fill: #2196F3;
+}
+
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.dev {
+    color: #2196F3;
+}
+
+.studio {
+    color: #212121;
+}
+
+.logo:hover .dev,
+.logo:hover .studio {
+    color: #2196F3;
+}
+
+
+nav .logo {}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {}
+
+nav a {
+    text-align: left;
+    color: #212121;
+}
+
+.heads {
+    background-color: #2F303A;
+    color: white;
+    text-align: center;
+
+}
+
+.heads h1 {
+    line-height: 60px;
+    letter-spacing: 6%;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.advantages {
+    letter-spacing: 3%;
+
+    font-size: 14px;
+}
+
+.advantages ul {
+    list-style: none;
+}
+
+.advantages ul li {
+    width: 270px;
+    height: 251px;
+}
+
+h2 {
+    color: #212121;
+    letter-spacing: auto;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #212121;
+    letter-spacing: 3%;
+    line-height: auto;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.advantages p {
+    line-height: 24px;
+    line-height: auto;
+}
+
+.advantages .advantages-images {
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    padding: 20px;
+    color: #212121;
+    text-align: center;
+
+}
+
+.images ul {
+    padding: 0;
+    list-style: none;
+}
+
+.images li {
+    margin: 31px;
+}
+
+.images img {
+    color: #C4C4C4;
+    border-radius: 10px;
+}
+
+.team {
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    text-align: center;
+
+}
+
+.team h2 {
+    letter-spacing: auto;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.team .team-list {
+    list-style: none;
+
+}
+
+.team .person {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team p {
+    letter-spacing: 3%;
+    line-height: auto;
+    font-size: 16px;
+}
+
+.team .name {
+    color: #212121;
+    font-weight: 500;
+}
+
+
+.team .social-network {
+    list-style: none;
+}
+
+.social-network li a {
+    margin: 5px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team .social-network li a svg {
+    fill: #AFB1B8;
+}
+
+.social-network li a:hover {
+    background-color: #2196F3;
+    fill: #ffffff;
+}
+
+.social-network li a:hover svg {
+    background-color: #2196F3;
+    fill: #ffffff;
+}
+
+footer {
+
+    font-size: 16px;
+    background-color: #2F303A;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .logo .studio {
+    color: #ffffff;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer address {
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 3%;
+    font-style: normal;
+    text-align: left;
+}
+
+footer address ul {
+    list-style: none;
+}
+
+footer address ul li {
+    opacity: 60%;
+}
+
+footer .social-network li a {
+    margin: 5px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255,
+            255,
+            255, 0.1);
+}
+
+footer svg {
+    fill: #ffffff;
+}
+
+footer h3 {
+    color: #ffffff;
+}
+
+footer input {
+    background-color: transparent;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
